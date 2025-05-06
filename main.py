@@ -1,11 +1,10 @@
 import os
 import json
 import xml.etree.ElementTree as ET
-from typing import Dict, List, Optional
+from typing import Optional
 
-from source.XMLAttribute import XMLAttribute
+from source.XMLClass import *
 from source.XMLAggregation import XMLAggregation
-from source.XMLClass import XMLClass
 
 class ArtifactGenerator:
     """Класс для формирования итоговых файлов"""
